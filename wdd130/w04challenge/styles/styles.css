@@ -10,6 +10,11 @@ body {
 h1:hover{
     color: black;
 }
+.top-quote {
+    max-width: 18%;
+    margin:0 auto;   
+}
+
 .list {
     margin:0 auto;
     display: inline-block;
