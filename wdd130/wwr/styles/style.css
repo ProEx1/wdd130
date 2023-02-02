@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:ital@1&display=swap');
+
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +11,7 @@ nav a{
     text-align: center;
     color: #0B4066;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -25,7 +30,17 @@ main section{
 
 body{
     background-color: #0B4066;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    
 }
+
+h2 {
+    margin:0;
+}
+
 header{
     background-color: #79C6D8;
 }
@@ -36,34 +51,50 @@ nav a:hover{
 .book, .join{
     background-color: #79C6D8;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .book:hover, .join:hover{
     background-color: #FCE273;
 }
 .msg{
     background-color: #FCE273;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #FCE273;
     color: #0B4066;
+    padding: 25px 50px;
+    margin-top: 200;
 }
 .home-title{
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    
 }
 h4{
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 .book, .join{
     color: #FCE273;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color: #79C6D8;
 }
 .msg h2{
     color: #0B4066;
+    font-family: 'Ubuntu', sans-serif;
 }
 .msg p{
-    color:#0B4066
+    color:#0B4066;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #0B4066;
@@ -78,6 +109,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -85,3 +117,26 @@ footer a:hover{
 footer p {
     font-size: 1.2em;
 } 
+h2{
+    color: white;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section img{
+    box-sizing: border-box;
+}

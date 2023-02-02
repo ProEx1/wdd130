@@ -1,0 +1,39 @@
+.banner-section {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+main {
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 50px solid darkgray;
+    background-color: darkgray;
+}
+
+
+.desk {
+    inline-size: 10em;
+    border-radius: 50%;
+    border: 10px solid rgb(115, 109, 109);
+    
+}
+
+.graphic {
+    inline-size: 10em;
+    border-radius: 50%;
+    border: 10px solid rgb(115, 109, 109);
+    margin-inline: 300px;
+}
+
+.person {
+
+    inline-size: 10em;
+    border-radius: 50%;
+    border: 10px solid rgb(115, 109, 109);
+}
+
