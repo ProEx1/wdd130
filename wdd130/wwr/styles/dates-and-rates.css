@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:ital@1&display=swap');
+
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #0B4066;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#background{
+    height: 725px;
+    background-color: #79C6D8;
+
+    margin: 500px;
+    padding: 500px 500px;
+}
+
+body{
+    background-color: #0B4066;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    margin:1;
+    text-decoration-line: underline;
+    
+}
+p {
+    margin: 100px;
+}
+
+header{
+    background-color: #79C6D8;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a:hover{
+    background-color: #FCE273;
+    color: #0B4066;
+}
+
+.logo{
+    width: 80px;
+}
+
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+main section{
+    text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.banner{
+    margin: 50px 0;
+}
+
+.button-box{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.book, .join{
+    background-color: #FCE273;
+    text-decoration: none;
+    padding: 1px 9px;
+}
+.book:hover, .join:hover{
+    background-color: #FCE273;
+}
+
+footer{
+    background-color: #FCE273;
+    color: #0B4066;
+    padding: 25px 50px;
+    margin-top: 200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-title{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    
+}
+
+.book:hover, .join:hover{
+    color: #79C6D8;
+}
+
+footer a{
+    color: #0B4066;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #79C6D8;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+
+footer .social img{
+    padding-top: 15px;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.information {
+    background-color:#79C6D8;
+}
+
+.home-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    grid-gap: 20px;
+}
+
+.rivers-card {
+    grid-column: 1/3;
+    align-self: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}

@@ -10,7 +10,10 @@ print(dash)
 
 def main():
     #Start here
+    pass
 
 
-main()
+# Call main to start this program.
+if __name__ == "__main__":
+    main()
 print(dash)
