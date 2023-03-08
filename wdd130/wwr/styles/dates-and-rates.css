@@ -167,7 +167,7 @@ main section img{
 .information {
     background-color:#79C6D8;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1fr 0.5fr;
     /* grid-template-columns: 1fr 1fr 1fr; */
     grid-gap: 20px;
     margin: 50px;
@@ -177,7 +177,7 @@ main section img{
 
 .imgs{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.2fr;
     grid-gap: 20px
 }
 
