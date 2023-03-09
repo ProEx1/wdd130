@@ -1,0 +1,10 @@
+.content {
+    width: 1000px;
+}
+
+section {
+    width: 300px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
