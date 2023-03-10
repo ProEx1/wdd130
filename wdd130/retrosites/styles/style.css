@@ -28,13 +28,20 @@ main section{
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
 }
 
 
+#arcade-img  {
+    margin: 100px;
+}
 
+.home-info {
+    padding: 50px;
+
+}
 
 
 
@@ -141,6 +148,9 @@ footer .social img{
     grid-template: 100px 100px 100px / 1fr 1fr 1fr; */
     position: relative;
     text-align: center;
+    background-image: url("../images/rsz_rsz_1crinkle_compressed-3.png");
+    background-size: cover;
+    background-position: center;
 
 
 }
@@ -152,6 +162,24 @@ footer .social img{
     display: inline-block;
     margin: auto;
 
+}
+
+#hero-img{
+    display: block;
+    margin: auto;
+}
+
+
+#hero-img{
+    display: block;
+    text-align: center;
+    margin:  auto;
+    padding-top: 50px;  
+   
+}
+
+img#welcome-gif  {
+    width: 30%;
 }
 
 #top-img{

@@ -19,15 +19,15 @@ nav a{
     padding: 35px;
 }
 
-#information {
+/* #information {
     
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     /* grid-gap: 20px; */
-    margin: 50px;
+    /* margin: 50px; */
     
-
-}
+/* 
+}  */
 
 
 main section{
@@ -37,9 +37,9 @@ main section{
 
 
 
-.home-grid {
+/* .home-grid {
 
-}
+} */
 
 
 
@@ -150,7 +150,7 @@ footer .social img{
     /* grid-row: 2/4; */
 }
 #welcome-gif{
-    padding: 25px 65% 25px 35%;
+    padding: 25px 70% 25px 30%;
     z-index: +1;
     width: 40%;
     
@@ -159,11 +159,11 @@ footer .social img{
 
 .home-info{
     background-color: #f182f0;
-    padding: 100px 400px 100px 400px;
-    margin: 22px 500px 22px 500px;
+    padding: 150px 100px 150px 100px;
+    margin: 22px 400px 22px 400px;
 }
 
 #arcade-img{
-    padding: 0px 20% 22px 35%;
+    padding: 0px 10% 22px 26%;
     
 }
